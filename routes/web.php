@@ -15,10 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-#Route::get('/bmi', 'BMIController@index');
-Route::get('/bmi/{title}', 'BmiController@show');
+
+Route::get('/input', 'BmiController@input');
 # /routes/web.php
 if (config('app.env') == 'local') {
-    Route::get('/input', 'BmiController@input');
-    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+        Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 }
