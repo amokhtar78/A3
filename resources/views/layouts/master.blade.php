@@ -9,7 +9,7 @@
         <meta charset='utf-8'>
         <link href='/css/app.css' type='text/css' rel='stylesheet'>
 
-        @stack('head')
+        @stack('header')
 
     </header>
     <body>
