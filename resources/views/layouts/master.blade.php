@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <header>
+    <head>
         <title>
             @yield('title', 'bmi')
         </title>
@@ -9,9 +9,9 @@
         <meta charset='utf-8'>
         <link href='/css/app.css' type='text/css' rel='stylesheet'>
 
-        @stack('header')
+        @stack('head')
 
-    </header>
+    </head>
     <body>
         <div class="container">
             <header>
