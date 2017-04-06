@@ -10,22 +10,15 @@ BMI Calculator
 BMI = weight(kg)/height2(m2)        
 
 <h3>BMI range - kg/m2</h3>
-Severe Thinness<br>	
-< 16<br>
-Moderate Thinness<br>	
-16 - 17<br>
-Mild Thinness<br>
-17 - 18.5<br>
+Thin<br>
+<= 18.5<br>
 Normal<br>
 18.5 - 25<br>
 Overweight<br>
 25 - 30<br>
-Obese Class I<br>
-30 - 35<br>
-Obese Class II<br>	
-35 - 40<br>
-Obese Class III<br>
-> 40<br>
+Obese<br>
+>= 30
+
 @endsection
 
 @section('content')

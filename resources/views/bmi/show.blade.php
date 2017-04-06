@@ -20,6 +20,6 @@
 @endsection
 
 
-@push('body')
+    @push('body')
     <script src="/js/books/show.js"></script>
 @endpush
