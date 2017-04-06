@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    CSCI E-15 Assignment 3<br>
+                    Dynamic Web Applications
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <hr>
+                    <a href="https://a3.mokhtar.co/input">DWA 15 Assignment 3</a>
+                    <a href="hhttp://dwa15.com/">CSCI E-15 Dynamic Web Applications</a>
+                    <a href="https://github.com/amokhtar78">GitHub</a>
                 </div>
             </div>
         </div>
