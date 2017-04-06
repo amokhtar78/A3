@@ -11,7 +11,12 @@
   |
  */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('/', 'BmiController@input');
+#Route::get('/bmi', 'BMIController@index');
+Route::get('/bmi/{title}', 'BmiController@show');
+# /routes/web.php
 Route::get('/input', 'BmiController@input');
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
