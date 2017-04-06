@@ -8,7 +8,7 @@ use App;
 class BmiController extends Controller {
 
     public function input(Request $request) {
-        if ($_SERVER['REQUEST_METHOD'] == 'GET')
+        if ($_GET)
         $this->validate($request, [
             'weight' => 'required|numeric',
             'height' => 'required|numeric',
