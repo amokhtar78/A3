@@ -10,13 +10,13 @@ BMI Calculator
 BMI = weight(kg)/height2(m2)        
 
 <h3>BMI range - kg/m2</h3>
-Thin<br>
+<h4>Thin</h4>
 less than 18.5<br>
-Normal<br>
+<h4>Normal</h4>
 from 18.5 to 25<br>
-Overweight<br>
+<h4>Overweight</h4>
 from 25 to 30<br>
-Obese<br>
+<h4>Obese</h4>
 more than 30
 
 @endsection
