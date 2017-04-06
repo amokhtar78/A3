@@ -85,7 +85,7 @@
 
                 <div class="links">
                     <hr>
-                    <a href="https://a3.mokhtar.co/input">DWA 15 Assignment 3</a>
+                    <a href="http://a3.mokhtar.co/input">DWA 15 Assignment 3</a>
                     <a href="hhttp://dwa15.com/">CSCI E-15 Dynamic Web Applications</a>
                     <a href="https://github.com/amokhtar78">GitHub</a>
                 </div>
