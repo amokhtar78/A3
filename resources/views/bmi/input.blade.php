@@ -11,13 +11,13 @@ BMI = weight(kg)/height2(m2)
 
 <h3>BMI range - kg/m2</h3>
 Thin<br>
-<= 18.5<br>
+less than 18.5<br>
 Normal<br>
-18.5 - 25<br>
+from 18.5 to 25<br>
 Overweight<br>
-25 - 30<br>
+from 25 to 30<br>
 Obese<br>
->= 30
+more than 30
 
 @endsection
 
