@@ -18,14 +18,17 @@
                 <img
                     src='/img/bmi.png'
                     alt='BMI Logo'>
+                <h1>Body Mass Index Calculator</h1>
             </header>
+            <nav>
+                @yield('nav')
+            </nav>
             <article>
                 <section>
                     @yield('content')
                 </section>
             </article>
             <footer>
-                <hr>
                 Amir Mokhtar &copy; {{ date('Y') }}
                 <BR>
                 <a href="https://github.com/amokhtar78/assignment3">GitHub Repository</a>

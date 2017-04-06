@@ -12,28 +12,27 @@ div.container {
     border: 1px solid gray;
 }
 header, footer {
-    padding: 1em;
     color: white;
     background-color: black;
     clear: left;
     text-align: center;
+    overflow: auto;
 }
 nav {
     float: left;
-    max-width: 160px;
+    max-width: 20%;
     margin: 0;
     padding: 1em;
+    border-left: 1px solid gray;
 }
 article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
+    margin-left: 25%;
     padding: 1em;
     overflow: hidden;
 }
 img {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 5px;
+    float: left;
+    margin-left: 5%;
     width: 120px;
     margin: left;
 }

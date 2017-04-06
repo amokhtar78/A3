@@ -5,15 +5,38 @@
 BMI Calculator
 @endsection
 
+@section('nav')
+<h3>(Metric Units)</h3>
+BMI = weight(kg)/height2(m2)        
+
+<h3>BMI range - kg/m2</h3>
+Severe Thinness<br>	
+< 16<br>
+Moderate Thinness<br>	
+16 - 17<br>
+Mild Thinness<br>
+17 - 18.5<br>
+Normal<br>
+18.5 - 25<br>
+Overweight<br>
+25 - 30<br>
+Obese Class I<br>
+30 - 35<br>
+Obese Class II<br>	
+35 - 40<br>
+Obese Class III<br>
+> 40<br>
+@endsection
+
 @section('content')
-<h1>Body Mass Index <br>Calculator</h1>
+<h1>BMI Calculator</h1>
 
 <form method='GET' action='/input'>
 
-    <label for='weight'>Please input your weight:</label>
+    <label for='weight'>Please input your weight in Kilo grams:</label>
     <input type='text' name='weight' id='weight' value='{{ $weight or '' }}'>
     <br>
-    <label for='height'>Please input your height:</label>
+    <label for='height'>Please input your height in meters:</label>
     <input type='text' name='height' id='height' value='{{ $height or '' }}'>
     <br>
     <label for='date'>Date of Birth</label>
@@ -31,11 +54,11 @@ BMI Calculator
 </form>
 
 @if(count($errors) > 0)
-    <ul>
-        @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
-        @endforeach
-    </ul>
+<ul>
+    @foreach ($errors->all() as $error)
+    <li>{{ $error }}</li>
+    @endforeach
+</ul>
 @endif
 
 @if($weight != null)
