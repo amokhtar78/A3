@@ -26,13 +26,13 @@ more than 30
 
 <form method='GET' action='/input'>
 
-    <label for='weight'>Please input your weight in Kilo grams:</label>
+    <label for='weight'>(Required) Please input your weight in Kilo grams:</label>
     <input type='text' name='weight' id='weight' value='{{ $weight or '' }}'>
     <br>
-    <label for='height'>Please input your height in meters:</label>
+    <label for='height'>(Required) Please input your height in meters:</label>
     <input type='text' name='height' id='height' value='{{ $height or '' }}'>
     <br>
-    <label for='date'>Date of Birth</label>
+    <label for='date'>(Required) Date of Birth</label>
     <input type='date' name='date' id="date">
     <br>
     <label for='gender'>Select your gender:</label>
